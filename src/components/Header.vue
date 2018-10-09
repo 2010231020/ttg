@@ -1,5 +1,5 @@
 <template>
-  <div class="header content">
+  <header class="header content">
     <img src="../assets/logo.png" alt="">
     <ul>
       <li>
@@ -28,7 +28,7 @@
         </router-link>
       </li>
     </ul>
-  </div>
+  </header>
 </template>
 
 <script>

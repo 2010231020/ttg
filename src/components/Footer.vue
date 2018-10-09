@@ -1,5 +1,5 @@
 <template>
-    <div class="footer">
+    <footer class="footer">
       <div class="WeChat">
         <div>
           <img src="../assets/wechat-bg.png" alt="">
@@ -20,7 +20,7 @@
         <li class="foot-icon"></li>
       </ul>
       <div class="remarks">版权所有@成都佳荟科技有限公司   蜀ICP备090251545号</div>
-    </div>
+    </footer>
 </template>
 
 <script>
