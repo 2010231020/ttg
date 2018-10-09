@@ -2,17 +2,17 @@
   <div id="app">
     <Header/>
     <router-view/>
-    <Foot/>
+    <Footer/>
   </div>
 </template>
 
 <script>
   import Header from "./components/Header";
-  import Foot from "./components/Foot";
+  import Footer from "./components/Footer";
 
   export default {
     name: 'App',
-    components: {Header, Foot}
+    components: {Header, Footer}
   }
 </script>
 

@@ -1,5 +1,5 @@
 <template>
-    <div class="foot">
+    <div class="footer">
       <div class="WeChat">
         <div>
           <img src="../assets/wechat-bg.png" alt="">
@@ -24,14 +24,14 @@
 </template>
 
 <script>
-    var footData = [
+    const footData = [
       {title: '关于我们', classification:[{link:'',text:'企业概况'},{link:'',text:'人才招聘'},{link:'',text:'合作社区'}]},
       {title: '新闻动态', classification:[{link:'',text:'企业新闻'},{link:'',text:'行业新闻'},{link:'',text:'企业活动'}]},
       {title: '智慧社区',classification:[{link:'',text:'微信公众号'},{link:'',text:'物业企业号'},{link:'',text:'蜂鸟社区平台'}]},
       {title: '联系我们',classification:[{link:'',text:'公司地址'},{link:'',text:'联系方式'}]},
     ];
     export default {
-      name: "Foot",
+      name: "Footer",
       data() {
         return {
           footData: footData,
@@ -42,5 +42,5 @@
 </script>
 
 <style scoped lang="less">
-  @import url(../style/foot.less);
+  @import url(../style/footer.less);
 </style>
