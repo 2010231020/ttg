@@ -1,5 +1,5 @@
 <template>
-  <div class="head content">
+  <div class="header content">
     <img src="../assets/logo.png" alt="">
     <ul>
       <li>
@@ -33,10 +33,10 @@
 
 <script>
   export default {
-    name: "Head"
+    name: "Header"
   }
 </script>
 
 <style lang="less">
-  @import url(../style/head.less);
+  @import url(../style/header.less);
 </style>

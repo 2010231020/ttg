@@ -41,49 +41,45 @@
     },
     mounted() {
       let that = this
-        that.someList = [
-          {
-            html: '',
-            style: {
-              background: `url(${require("../assets/banner1.jpg")}) no-repeat`,
-              backgroundSize: '100% 100%',
-              cursor: 'pointer'
-            },
-            link: '/'
+      that.someList = [
+        {
+          html: '',
+          style: {
+            background: `url(${require("../assets/banner1.jpg")}) no-repeat`,
+            backgroundSize: '100% 100%',
+            cursor: 'pointer'
           },
-          {
-            html: '',
-            style: {
-              background: `url(${require("../assets/banner2.jpg")}) no-repeat`,
-              backgroundSize: '100% 100%',
-              cursor: 'pointer'
-            },
-            link: '/aboutUs'
+          link: '/'
+        },
+        {
+          html: '',
+          style: {
+            background: `url(${require("../assets/banner2.jpg")}) no-repeat`,
+            backgroundSize: '100% 100%',
+            cursor: 'pointer'
           },
-          {
-            html: '',
-            style: {
-              background: `url(${require("../assets/banner3.jpg")}) no-repeat`,
-              backgroundSize: '100% 100%',
-              cursor: 'pointer'
-            },
-            link: '/contactUs'
-          }
-        ]
+          link: '/aboutUs'
+        },
+        {
+          html: '',
+          style: {
+            background: `url(${require("../assets/banner3.jpg")}) no-repeat`,
+            backgroundSize: '100% 100%',
+            cursor: 'pointer'
+          },
+          link: '/contactUs'
+        }
+      ]
     },
     methods: {
       // Listener event
       slide(data) {
-        console.log('slide', data)
       },
       onTap(data) {
-        console.log('tap', data)
       },
       onInit(data) {
-        console.log(data)
       },
       onMouseOver(data) {
-        console.log('over', data)
       }
     }
   }
